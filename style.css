@@ -1,0 +1,76 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  font-family: 'Space Mono', monospace;
+  color: #06396b;
+  background-color: #5cdb94;
+  padding: 16px;
+}
+
+h1 {
+  font-family: 'Koulen', cursive;
+}
+
+a {
+  text-decoration: none;
+  color: #06396b;
+}
+
+a:hover {
+  background-color: #5cdb94;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+ }
+
+ i {
+   text-decoration: none;
+ }
+
+.list-inline {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+  }
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+.card {
+  margin: 20px  0;
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.3)
+}
+
+#profile-pic {
+  border-radius: 25px;
+  width: 60%;
+  height: 60%;
+}
