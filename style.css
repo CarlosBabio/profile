@@ -39,6 +39,10 @@ i {
   color: #06396b;
 }
 
+i:hover {
+  color: white;
+}
+
 a:hover {
   background-color: #5cdb94;
 }
@@ -61,15 +65,15 @@ ul {
   }
 
 .container {
-  width: 700px;   /* This sets the width */
-  margin: 50px auto 0 auto; /* This automatically sets left/right margins */
+  width: 700px;
+  margin: 50px auto 0 auto;
 }
 
 .container-bottom {
-  background-color: #5cdb94;
   padding: 20px;
   text-align: center;
 }
+
 
 .card {
   margin: 20px  0;
@@ -100,12 +104,12 @@ ul {
 }
 
 .nav-bar-item {
-  color: white;
+  color: #06396b;
   display: block;
 }
 
 .nav-bar-item:hover {
-  color: #06396b;
+  color: white;
   border-bottom-style: solid;
 }
 
