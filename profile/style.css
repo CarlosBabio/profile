@@ -51,7 +51,7 @@ ul {
  }
 
  i {
-   text-decoration: none;
+  text-decoration: none;
  }
 
 .list-inline {
@@ -61,12 +61,12 @@ ul {
   }
 
 .container {
-  width: 500px;   /* This sets the width */
+  width: 700px;   /* This sets the width */
   margin: 50px auto 0 auto; /* This automatically sets left/right margins */
 }
 
 .container-bottom {
-  background-color: #66BFBF;
+  background-color: #5cdb94;
   padding: 20px;
   text-align: center;
 }
@@ -79,7 +79,7 @@ ul {
   border-radius: 10px;
   border-bottom: 5px solid;
   border-right: solid;
-  box-shadow: 0 10px 30px rgba(0,0,0,.3)
+  box-shadow: 0 10px 10px rgba(0,0,0,.3)
 }
 
 .content {
@@ -112,12 +112,6 @@ ul {
 .sticky {
   position: fixed;
   top: 0;
-}
-
-#profile-pic {
-  border-radius: 25px;
-  width: 60%;
-  height: 60%;
 }
 
 input[type=text], select {
@@ -166,6 +160,12 @@ textarea {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+}
+
+#profile-pic {
+  border-radius: 25px;
+  width: 50%;
+  height: 50%;
 }
 
 #query, textarea {
